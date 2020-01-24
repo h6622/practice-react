@@ -1,7 +1,12 @@
 import React from "react";
+import Main from "./pages/main";
 
 function App() {
-  return <h1>헬로우 리액트</h1>;
+  return (
+    <>
+      <Main />
+    </>
+  );
 }
 
 export default App;
